@@ -20,6 +20,11 @@ header {
   gap: 60px;
 }
 
+a:hover {
+  background: #acb7c3;
+  transition: 0.4s;
+}
+
 .logo {
   font-size: 18px;
   line-height: 20px;
@@ -497,4 +502,104 @@ section.portfolio-3 {
   height: 50px;
   border-color: #396df2;
   border-radius: 8px;
+}
+
+section.about {
+  height: 718px;
+}
+
+.about {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-title {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+}
+
+.about-me-p {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.resume button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+.lang {
+  padding-top: 80px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.my-lang {
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  width: 303px;
+  gap: 10px 20px;
+}
+
+.my-lang li {
+  display: flex;
+  background-color: #f7f7f9;
+  align-items: center;
+}
+
+.my-lang li h2 {
+  margin-left: 20%;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.frameworks {
+  padding-top: 80px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.skills {
+  padding-top: 10px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
 }
