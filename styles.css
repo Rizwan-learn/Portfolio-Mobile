@@ -603,3 +603,13 @@ section.about {
   line-height: 24px;
   padding-bottom: 40px;
 }
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
