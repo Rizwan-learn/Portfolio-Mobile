@@ -312,3 +312,189 @@ section.portfolio-2 {
   border-color: #396df2;
   border-radius: 8px;
 }
+
+section.portfolio-3 {
+  height: 718px;
+}
+
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 12px 0;
+}
+
+.tonic-img-3 {
+  margin: 10%;
+}
+
+.project-name-3 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.about-project-3 ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.company-3 {
+  color: black;
+  font-weight: bold;
+}
+
+.position-3 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.year-3 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.role-project-3 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.skills-project-3 ul {
+  display: flex;
+  list-style: none;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.skills-project-3 li {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.view-project-3 button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+.project-4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin: 12px 0;
+  }
+  
+  .tonic-img-4 {
+    margin: 10%;
+  }
+  
+  .project-name-4 {
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 30px;
+  }
+  
+  .about-project-4 ul {
+    list-style: none;
+    float: left;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  
+  .company-4 {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .position-4 {
+    list-style-type: disc;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .year-4 {
+    list-style-type: disc;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .role-project-4 {
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 12px 0;
+  }
+  
+  .skills-project-4 ul {
+    display: flex;
+    list-style: none;
+    float: left;
+    gap: 30px;
+    flex-direction: row;
+  }
+  
+  .skills-project-4 li {
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    width: 53px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+  }
+  
+  .view-project-4 button {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    border-color: #396df2;
+    border-radius: 8px;
+  }
