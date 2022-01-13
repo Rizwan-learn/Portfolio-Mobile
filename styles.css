@@ -92,6 +92,7 @@ header {
   line-height: 52px;
   align-items: center;
   color: #172b4d;
+  font-family: 'poppins', sans-serif;
 }
 
 .me {
@@ -100,6 +101,7 @@ header {
   font-weight: normal;
   font-style: normal;
   color: #344563;
+  font-family: 'poppins', sans-serif;
 }
 
 .connect {
@@ -107,6 +109,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  font-family: 'poppins', sans-serif;
 }
 
 .social ul {
