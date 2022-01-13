@@ -1,0 +1,615 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-menu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+a:hover {
+  background: #acb7c3;
+  transition: 0.4s;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #6070ff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-items {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
+.homepage {
+  height: 718px;
+}
+
+.introduction {
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+
+.intro {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+  font-family: 'poppins', sans-serif;
+}
+
+.me {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  font-family: 'poppins', sans-serif;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  float: left;
+  gap: 10px;
+}
+
+section.portfolio-1 {
+  height: 718px;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 12px 0;
+}
+
+.tonic-img-1 {
+  margin: 10%;
+}
+
+.project-name-1 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.about-project-1 ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.company {
+  color: black;
+  font-weight: bold;
+}
+
+.position {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.year {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.role-project-1 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.skills-project-1 ul {
+  display: flex;
+  list-style: none;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.skills-project-1 li {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.view-project-1 button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+section.portfolio-2 {
+  height: 718px;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 12px 0;
+}
+
+.tonic-img-2 {
+  margin: 10%;
+}
+
+.project-name-2 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.about-project-2 ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.company-2 {
+  color: black;
+  font-weight: bold;
+}
+
+.position-2 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.year-2 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.role-project-2 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.skills-project-2 ul {
+  display: flex;
+  list-style: none;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.skills-project-2 li {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.view-project-2 button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+section.portfolio-3 {
+  height: 718px;
+}
+
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 12px 0;
+}
+
+.tonic-img-3 {
+  margin: 10%;
+}
+
+.project-name-3 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.about-project-3 ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.company-3 {
+  color: black;
+  font-weight: bold;
+}
+
+.position-3 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.year-3 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.role-project-3 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.skills-project-3 ul {
+  display: flex;
+  list-style: none;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.skills-project-3 li {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.view-project-3 button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+.project-4 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 12px 0;
+}
+
+.tonic-img-4 {
+  margin: 10%;
+}
+
+.project-name-4 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+.about-project-4 ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.company-4 {
+  color: black;
+  font-weight: bold;
+}
+
+.position-4 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.year-4 {
+  list-style-type: disc;
+  color: gray;
+  font-weight: bold;
+}
+
+.role-project-4 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.skills-project-4 ul {
+  display: flex;
+  list-style: none;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.skills-project-4 li {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.view-project-4 button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+section.about {
+  height: 718px;
+}
+
+.about {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-title {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+}
+
+.about-me-p {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.resume button {
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-color: #396df2;
+  border-radius: 8px;
+}
+
+.lang {
+  padding-top: 80px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.my-lang {
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  width: 303px;
+  gap: 10px 20px;
+}
+
+.my-lang li {
+  display: flex;
+  background-color: #f7f7f9;
+  align-items: center;
+}
+
+.my-lang li h2 {
+  margin-left: 20%;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.frameworks {
+  padding-top: 80px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.skills {
+  padding-top: 10px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
