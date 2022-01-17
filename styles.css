@@ -8,6 +8,12 @@ header {
   padding: 10px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .nav-menu-content {
   display: flex;
   flex-direction: row;
@@ -86,7 +92,7 @@ a:hover {
 }
 
 .homepage {
-  height: 718px;
+  min-height: 718px;
 }
 
 .introduction {
@@ -129,7 +135,7 @@ a:hover {
 }
 
 section.portfolio-1 {
-  height: 718px;
+  min-height: 718px;
 }
 
 .project-1 {
@@ -137,10 +143,6 @@ section.portfolio-1 {
   flex-direction: column;
   padding-left: 10px;
   margin: 12px 0;
-}
-
-.tonic-img-1 {
-  margin: 10%;
 }
 
 .project-name-1 {
@@ -234,10 +236,6 @@ section.portfolio-2 {
   margin: 12px 0;
 }
 
-.tonic-img-2 {
-  margin: 10%;
-}
-
 .project-name-2 {
   display: flex;
   font-family: 'poppins', sans-serif;
@@ -329,10 +327,6 @@ section.portfolio-3 {
   margin: 12px 0;
 }
 
-.tonic-img-3 {
-  margin: 10%;
-}
-
 .project-name-3 {
   display: flex;
   font-family: 'poppins', sans-serif;
@@ -420,10 +414,6 @@ section.portfolio-3 {
   margin: 12px 0;
 }
 
-.tonic-img-4 {
-  margin: 10%;
-}
-
 .project-name-4 {
   display: flex;
   font-family: 'poppins', sans-serif;
@@ -505,7 +495,7 @@ section.portfolio-3 {
 }
 
 section.about {
-  height: 718px;
+  min-height: 718px;
 }
 
 .about {
