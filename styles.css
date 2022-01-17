@@ -603,3 +603,63 @@ button:active {
   background-color: #2230d2;
   color: white;
 }
+
+
+.contact-form{
+  min-height: 718px;
+  background-image: url("Image/background-Contact-me.png");
+ }
+ 
+ .title-contact{
+   padding-top: 40%;
+   font-family: 'poppins', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 52px;
+   align-items: center;
+   text-align: center;
+   color: #ffffff;
+ }
+ 
+ .view{
+   padding-top: 30px;
+   font-family: 'poppins', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: center;
+   color: #ebebff;
+   margin-right: 10%;
+   margin-left: 5%;
+   padding-bottom: 10%;
+ }
+ 
+ input{
+   width: 80%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   resize: vertical;  
+   margin-left: 10px;
+ }
+ 
+ .box{
+   padding-bottom: 50%; 
+ }
+ 
+ .get-in-touch button {
+   font-family: 'poppins', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   color: #396df2;
+   background-color: white;
+   width: 130px;
+   height: 50px;
+   border-color: #396df2;
+   border-radius: 8px;
+   margin: 10px;
+ }
