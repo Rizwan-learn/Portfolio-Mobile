@@ -664,7 +664,7 @@ textarea {
   padding-bottom: 50%;
 }
 
-.get-in-touch button {
+.get-in-touch {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -676,6 +676,15 @@ textarea {
   height: 50px;
   border-color: #396df2;
   border-radius: 8px;
-  align-self: flex-start;
-  margin-right: 210px;
+  margin-right: 190px;
+}
+
+.get-in-touch:hover {
+  background-color: #6070ff;
+  color: #ffffff;
+}
+
+.get-in-touch:active {
+  background-color: #2230d2;
+  color: #ffffff;
 }
