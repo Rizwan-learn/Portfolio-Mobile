@@ -636,7 +636,7 @@ button:active {
   padding-bottom: 10%;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -651,7 +651,7 @@ input {
   margin-left: 10px;
 }
 
-textarea{
+textarea {
   width: 80%;
   padding: 12px;
   border: 1px solid #ccc;
