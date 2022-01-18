@@ -651,6 +651,15 @@ input {
   margin-left: 10px;
 }
 
+textarea{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-left: 10px;
+}
+
 .box {
   padding-bottom: 50%;
 }
